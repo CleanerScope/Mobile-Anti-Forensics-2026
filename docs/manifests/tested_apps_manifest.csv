@@ -1,0 +1,10 @@
+app_name,package_name,version_name,version_code,apk_source,emulator_tested,physical_validation_in_paper,notes
+Android Eraser,com.cbinnovations.androideraser,1.5,1500,C:\AndroidForensicsProject\CleanerScope\apks\android eraser\android_data_eraser.apk,yes,yes,Strong app-private report artifact; physically validated on rooted Android 14
+Andro Shredder,com.apparillos.android.androshredder,2.0.7,207,C:\AndroidForensicsProject\CleanerScope\apks\andro shredder\Andro Shredder.apk,yes,no,Selector/intensity mapping validated in emulator/static analysis
+iShredder,com.projectstar.ishredder.android.standard,7.3,7302,C:\AndroidForensicsProject\CleanerScope\apks\ishredder\iShredder.apk,yes,no,Strong static and dynamic method evidence in emulator study
+Shredder,com.trictech.shred,1.1,2,C:\AndroidForensicsProject\CleanerScope\apks\shredder\Shredder.apk,yes,no,Strong method evidence in emulator study
+Shreddit,com.palmtronix.shreddit.v1,5.36.251203,89,C:\AndroidForensicsProject\CleanerScope\apks\shreddit\shreddit-latest.apk,yes,yes,Physically validated; strong prefs plus runtime filename/path traces
+Safe Delete,com.seeroo.safedeleteApp,1.7,7,C:\AndroidForensicsProject\CleanerScope\apks\safe delete\Safe Delete.apk,yes,no,Code-derived/fixed-method case in emulator study
+Wipe Files,uk.org.platitudes.wipefiles,0.3,3,C:\AndroidForensicsProject\CleanerScope\apks\wipe files\Wipe Files_0.3_APKPure.apk,yes,no,Strong emulator evidence; not installable on Android 14 due target SDK floor
+ZERDAVA,com.zerdava.fileshredder,1.01.7725,7725,C:\AndroidForensicsProject\CleanerScope\apks\zerdava\xapk_extract\com.zerdava.fileshredder.apk,yes,yes,Physically validated; selector-based method recovery and filename/path traces
+ZeroFill,com.ekyoulabs.zerofill,2.0.0-130426,20000,C:\AndroidForensicsProject\CleanerScope\apks\zerofill\xapk_extract\com.ekyoulabs.zerofill.apk,yes,no,Included in paper app set; excluded from paper physical-validation summary

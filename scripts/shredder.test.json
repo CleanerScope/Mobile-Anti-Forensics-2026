@@ -1,0 +1,44 @@
+{
+  "displayName": "Shredder",
+  "captureDirName": "Shredder_AutoTest",
+  "packageName": "com.trictech.shred",
+  "expectedVersionName": "1.1",
+  "expectedVersionCode": "2",
+  "apkPath": "C:\\AndroidForensicsProject\\CleanerScope\\apks\\shredder\\Shredder+-+Data+Sanitizer_1.1_apkcombo.com.apk",
+  "mainActivity": ".SplashActivity",
+  "activityKeyword": "Activity",
+  "adbPath": "adb",
+  "deviceSerial": "emulator-5554",
+  "captureRoot": "C:\\AndroidForensicsProject\\CleanerScope\\captures",
+  "datasetRoot": "C:\\AndroidForensicsProject\\CleanerScope\\Test_data4",
+  "sharedStorageTargets": {
+    "Camera": "/storage/emulated/0/DCIM/Camera",
+    "Screenshots": "/storage/emulated/0/DCIM/Screenshots",
+    "Documents": "/storage/emulated/0/Documents",
+    "Download": "/storage/emulated/0/Download"
+  },
+  "datasetMap": {
+    "camera": "/storage/emulated/0/DCIM/Camera",
+    "screenshots": "/storage/emulated/0/DCIM/Screenshots",
+    "document": "/storage/emulated/0/Documents",
+    "Downloads": "/storage/emulated/0/Download"
+  },
+  "rootAppPrivateSubdirs": [
+    "cache",
+    "shared_prefs",
+    "databases",
+    "files"
+  ],
+  "additionalRootPulls": [],
+  "useRootForReset": true,
+  "rootResetPaths": [
+    "/data/system_ce/0/recent_tasks",
+    "/data/system_ce/0/recent_images",
+    "/data/system_ce/0/snapshots",
+    "/data/system/usagestats/0/daily",
+    "/data/system/usagestats/0/weekly",
+    "/data/system/usagestats/0/monthly",
+    "/data/system/usagestats/0/yearly"
+  ],
+  "resetExtraSharedPaths": []
+}
