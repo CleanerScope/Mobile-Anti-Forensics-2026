@@ -88,11 +88,13 @@ If you specifically want the static-analysis basis for selector mapping and over
 ### `mappings/`
 
 - selector-to-method mapping table
+- app-to-artifact-path mapping table
 - overwrite-behavior summary table
 
 ### `examples/`
 
 - curated evidence excerpts
+- bounded extractor output examples
 - reviewer-facing examples of direct method artifacts, mapped selectors, runtime traces, and survivor evidence
 
 ### `reports/`
@@ -153,6 +155,16 @@ The current project's reproducible automation surface is documented in:
 The key script entry point is:
 
 - `scripts/Invoke-CleanerScopePipeline.ps1`
+
+The package also includes a bounded study extractor:
+
+- `scripts/Extract-CleanerScopeEvidence.ps1`
+
+Reviewer-facing example outputs for that extractor are provided in:
+
+- `examples/extractor_output_examples.md`
+
+This extractor is intentionally limited to the retained nine-app study set. It normalizes recovered method/configuration artifacts into JSON output and uses the package mapping materials to interpret selector-style values.
 
 Important limitation:
 
