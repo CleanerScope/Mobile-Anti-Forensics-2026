@@ -1,0 +1,12 @@
+app_name,package_name,artifact_kind,relative_pattern,notes
+Android Eraser,com.cbinnovations.androideraser,method_pref,com.cbinnovations.androideraser.xml,"Primary app-private preferences artifact; may contain cb_default_method and savekey_reports"
+Andro Shredder,com.apparillos.android.androshredder,method_pref,MainActivity.xml,"Activity-private preferences artifact containing shredIntensity and wipeIntensity"
+Andro Shredder,com.apparillos.android.androshredder,result_pref,com.apparillos.android.androshredder_preferences.xml,"Default shared preferences containing shredFinishedFiles and result-state keys"
+iShredder,com.projectstar.ishredder.android.standard,method_pref,com.projectstar.ishredder.android.standard_preferences.xml,"Default shared preferences containing ishredder_default_method"
+iShredder,com.projectstar.ishredder.android.standard,report_pref,Reports.xml,"Legacy report-bearing preferences artifact"
+Shredder,com.trictech.shred,method_pref,com.trictech.shred_preferences.xml,"Direct algorithm preference artifact"
+Shreddit,com.palmtronix.shreddit.v1,method_pref,com.palmtronix.shreddit.v1_preferences.xml,"Direct algorithm preference artifact"
+Safe Delete,com.seeroo.safedeleteApp,config_pref,com.seeroo.safedeleteApp_preferences.xml,"No method selector; rootmode and URI only"
+Wipe Files,uk.org.platitudes.wipefiles,config_pref,uk.org.platitudes.wipefiles_preferences.xml,"Configuration-driven method evidence: number_passes, zero_wipe, block_size"
+ZERDAVA,com.zerdava.fileshredder,method_pref,ZerdavaAndroidFileShredderPreferenceHelper.xml,"Selector-bearing preferences artifact"
+ZeroFill,com.ekyoulabs.zerofill,datastore_pref,shred_prefs.preferences_pb,"DataStore/protobuf-style artifact containing last_algorithm_id"
