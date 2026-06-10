@@ -161,16 +161,6 @@ Documented examples include:
 - ZeroFill
 - iShredder
 
-## Environment-sensitive interpretation
-
-Several parts of the study depend on environment details and should be interpreted accordingly:
-
-- emulator reset behavior depends on overlay/snapshot control,
-- rooted physical-device artifact visibility can differ from emulator visibility,
-- some recent-task or snapshot artifacts on Android 14 may appear in newer or less readable formats,
-- decompilation output can vary across JADX versions,
-- write durability semantics depend partly on the platform and file path, not only on the app code.
-
 ## Scope note
 
 This environment note applies to:
