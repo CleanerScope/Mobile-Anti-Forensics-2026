@@ -34,8 +34,8 @@ This class is used when the recovered app-private artifact already stores the me
 
 Examples:
 
-- Android Eraser `cb_default_method`
-- iShredder `ishredder_default_method`
+- Android Eraser `savekey_reports` / `cb_default_method`
+- iShredder `Reports.xml` / `ishredder_default_method`
 - Shreddit `shred.algo`
 - Shredder `algorithm`
 - ZeroFill `last_algorithm_id`
@@ -165,6 +165,11 @@ Where no named method exists, configuration values were treated as the method-de
 Example:
 
 - Wipe Files: `number_passes` + `zero_wipe` + `block_size`
+- **Note:** Wipe Files is classified as Direct in the paper's
+> summary table (Table 2) for simplicity. The configuration-based
+> subclass is documented here for interpretive precision, since the
+> recovered values are not a named method string but a configuration
+> tuple that defines the overwrite routine.
 
 ### Rule 4: Code-only recovery is a separate evidentiary class
 
