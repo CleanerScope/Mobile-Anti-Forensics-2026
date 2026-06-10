@@ -29,8 +29,8 @@ The main comparative study used an Android emulator environment based on:
 - **System image:** `system-images\android-28\google_apis\x86_64\`
 - **Architecture:** `x86_64`
 - **ABI:** `x86_64`
-- **RAM:** `2048 MB`
-- **Data partition size:** `6G`
+- **RAM:** `4096 MB`
+- **Data partition size:** `32G`
 - **SD card size:** `512M`
 - **Tag:** `Google APIs`
 
