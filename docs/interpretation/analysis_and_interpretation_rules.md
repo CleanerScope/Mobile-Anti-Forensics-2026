@@ -38,7 +38,7 @@ Examples:
 - iShredder `Reports.xml` / `ishredder_default_method`
 - Shreddit `shred.algo`
 - Shredder `algorithm`
-- ZeroFill `last_algorithm_id`
+- ZeroFill `german_vsitr` (DataStore under `files/datastore/`)
 
 Interpretation rule:
 
@@ -291,15 +291,12 @@ This was treated as implementation quality, not as the same thing as method iden
 
 ## Scope rules
 
-Only the nine successful applications retained in the paper were included in this package. Failed apps, excluded apps, abandoned trials, and discarded scripts are outside scope.
-
+Only the nine successful applications retained in the paper were included in this package. 
 For physical validation reporting, only the paper-used physical cases were retained:
 
 - Android Eraser
 - Shreddit
 - ZERDAVA
-
-ZeroFill remains part of the nine-app static-analysis and mapping set, but not the public paper-facing physical-validation summary.
 
 ## Summary
 
