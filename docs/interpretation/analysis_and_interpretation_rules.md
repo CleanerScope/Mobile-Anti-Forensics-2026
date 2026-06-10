@@ -165,6 +165,7 @@ Where no named method exists, configuration values were treated as the method-de
 Example:
 
 - Wipe Files: `number_passes` + `zero_wipe` + `block_size`
+  
 - **Note:** Wipe Files is classified as Direct in the paper's
 > summary table (Table 2) for simplicity. The configuration-based
 > subclass is documented here for interpretive precision, since the
