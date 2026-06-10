@@ -66,7 +66,7 @@ The paper-facing physical validation used a rooted Android tablet:
 
 - **Model:** `SM-T220`
 - **Android version:** `14`
-- **Access model:** rooted via `su`
+- **Access model:** rooted via Magisk `su`
 
 This device was used for targeted external-validity validation rather than for the full nine-app comparative matrix.
 
