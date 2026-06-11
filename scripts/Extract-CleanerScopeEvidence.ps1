@@ -392,7 +392,7 @@ function Extract-SafeDelete {
         -Package $ManifestRow.package_name `
         -VersionName $ManifestRow.version_name `
         -VersionCode $ManifestRow.version_code `
-        -ArtifactPath (Get-FallbackValue -Value $artifactPath -Fallback 'N/A') `
+        -ArtifactPath (Get-FallbackValue -Primary $artifactPath -Fallback 'N/A') `
         -RawValue 'code_only=true' `
         -EvidenceClass 'code_only_reconstruction' `
         -MappedLabel 'Fixed one-pass zero overwrite' `
