@@ -419,6 +419,12 @@ function Run-PhaseB {
 function Run-PhaseC {
     param($Config, [hashtable]$Paths)
 
+    $preUninstallDir = New-PhaseFolder -Paths $Paths -Name 'PhaseC_PreUninstall_UsageStats'
+    Write-Status 'Capturing final pre-uninstall UsageStats state.'
+    Set-RootMode -Config $Config -EnableRoot ($Mode -eq 'Rooted')
+    Save-AdbOutput -Config $Config -FilePath (Join-Path $preUninstallDir '01_dumpsys_usagestats_preuninstall.txt') -Arguments @('shell', 'dumpsys', 'usagestats') -AllowFailure | Out-Null
+    Save-AppFilteredHits -InputPath (Join-Path $preUninstallDir '01_dumpsys_usagestats_preuninstall.txt') -OutputPath (Join-Path $preUninstallDir '02_hits_usagestats_preuninstall_app.txt') -Patterns @($Config.packageName, $Config.activityKeyword, 'Shredding', 'shred', 'wipe')
+
     Write-Status 'Uninstalling app for Phase C.'
     Invoke-Adb -Config $Config -Arguments @('uninstall', $Config.packageName) -AllowFailure | Out-Null
     $phaseDir = New-PhaseFolder -Paths $Paths -Name 'PhaseC_PostUninstall'
@@ -432,6 +438,7 @@ function Run-PhaseC {
     }
 
     Append-Findings -Paths $Paths -SectionTitle "Phase C $Mode" -Lines @(
+        "Pre-uninstall UsageStats folder: $preUninstallDir"
         "Capture folder: $phaseDir"
         "Package uninstall attempted for: $($Config.packageName)"
     )
