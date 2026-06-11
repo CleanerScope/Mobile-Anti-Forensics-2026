@@ -11,7 +11,7 @@ Static analysis was used for four main purposes:
 3. to inspect the actual overwrite behavior implemented by the code
 4. to qualify cases where the stored label, selector, or user-facing method name diverged from the real implementation
 
-This means static analysis in CleanerScope was not used only to ìlook at code.î It was used as an interpretive bridge between:
+This means static analysis in CleanerScope was not used only to ‚Äúlook at code.‚Äù It was used as an interpretive bridge between:
 - recovered artifact values
 - mapped method labels
 - verified overwrite behavior
@@ -97,17 +97,8 @@ Failed trials, discarded apps, and non-paper exploratory analysis are intentiona
 
 ## Relationship to the reviewer concern
 
-These notes address the reviewerís reproducibility concern by making the following explicit:
+These notes address the reviewer‚Äôs reproducibility concern by making the following explicit:
 - which app artifacts were statically inspected
 - how selector-to-method mappings were derived
 - which overwrite routines were actually examined
 - which conclusions are direct, mapped, or code-derived
-
-## Next outputs
-
-The next files in this section are the per-app notes in:
-- `docs/static_analysis/per_app_notes/`
-
-Those notes are the app-level source material for:
-- `mappings/selector_method_mappings.csv`
-- `mappings/overwrite_behavior_notes.csv`
