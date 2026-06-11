@@ -97,6 +97,13 @@ If you specifically want the static-analysis basis for selector mapping and over
 - bounded extractor output examples
 - reviewer-facing examples of direct method artifacts, mapped selectors, runtime traces, and survivor evidence
 
+### `scripts/`
+
+- main acquisition pipeline (`Invoke-CleanerScopePipeline.ps1`)
+- bounded evidence extractor (`Extract-CleanerScopeEvidence.ps1`)
+- example pipeline configurations
+- operator-facing README
+
 ### `reports/`
 
 - script and config index
