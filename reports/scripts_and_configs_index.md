@@ -6,24 +6,6 @@ This document records the script and configuration surface used to support the C
 
 Only the script/config materials relevant to the retained study workflow are included here.
 
-## Source scope
-
-The current project contains the following relevant script/config assets under:
-
-```text
-C:\AndroidForensicsProject\CleanerScope\scripts\
-```
-
-Observed files:
-
-- `Invoke-CleanerScopePipeline.ps1`
-- `pipeline.config.example.json`
-- `README.md`
-- `shredder.rooted.json`
-- `shredder.test.json`
-
-No separate top-level `configs/` directory was present in the inspected project tree at the time this index was generated, so the package documents the actual configuration artifacts currently stored alongside the scripts.
-
 ## Script inventory
 
 ### `Invoke-CleanerScopePipeline.ps1`
