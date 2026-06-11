@@ -18,7 +18,7 @@ Validated physical device:
 
 - **Model:** Samsung `SM-T220`
 - **Android version:** `14`
-- **Access model:** rooted via `su`
+- **Access model:** rooted via Magisk `su`
 
 These runs were executed as targeted external-validity checks using the same general four-phase structure applied in the main study:
 
