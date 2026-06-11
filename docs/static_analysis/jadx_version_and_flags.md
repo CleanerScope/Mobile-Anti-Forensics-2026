@@ -64,7 +64,7 @@ The sampled findings for:
 - Shreddit
 - ZeroFill
 
-all explicitly record `JADX 1.5.5 (--show-bad-code)` as the analysis baseline.
+all explicitly record `JADX 1.5.5 (--show-bad-code)` as the analysis baseline. The remaining apps (iShredder, Shredder, Safe Delete, Wipe Files) used the same standard pass.
 
 ## Input artifact handling
 
@@ -79,6 +79,7 @@ Used for apps distributed as split packages or XAPK archives.
 Documented examples include:
 - ZERDAVA
 - ZeroFill
+- iShredder
 
 In these cases, the main application APK was extracted first and then analyzed with JADX.
 
