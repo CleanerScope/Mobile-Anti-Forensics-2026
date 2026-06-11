@@ -141,23 +141,6 @@ Manual steps still included:
 
 This was intentional. A single fully automated UI-driving framework was not used because the selected applications differed substantially in workflow and storage permissions.
 
-## Recommended release organization
-
-For the public package, the script/config materials should be exposed in two layers:
-
-### Layer 1: actual runnable artifacts
-
-- `scripts/Invoke-CleanerScopePipeline.ps1`
-- `scripts/pipeline.config.example.json`
-- `scripts/shredder.rooted.json`
-- `scripts/shredder.test.json`
-
-### Layer 2: explanatory documentation
-
-- `scripts/README.md`
-- this index file
-- `docs/methodology/experiment_workflow_and_phases.md`
-
 ## Scope control
 
 This index intentionally excludes:
