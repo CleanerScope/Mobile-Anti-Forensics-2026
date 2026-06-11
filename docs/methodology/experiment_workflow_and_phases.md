@@ -48,7 +48,7 @@ Interpretation rule:
 
 ## Baseline preparation
 
-Before each run, the environment was returned to a clean enough baseline by:
+Before each run, the environment was returned to a clean baseline by:
 
 - uninstalling the previously tested app,
 - clearing or removing staged test files,
