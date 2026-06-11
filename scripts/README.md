@@ -5,6 +5,9 @@ This folder contains the PowerShell automation for the CleanerScope acquisition 
 Main files:
 - `Invoke-CleanerScopePipeline.ps1`
 - `pipeline.config.example.json`
+- > **Note:** Paths in this README and in the example configs
+> use the original project layout. Replace all absolute paths
+> with your own working directory before running.
 
 ## What The Script Automates
 
